@@ -3,6 +3,7 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+st.sidebar.title("App Adress")
 st.sidebar.info(
     """
     - Web App URL: <https://mmadrz-geo-streamlit-app-k1tkuz.streamlit.app/>
