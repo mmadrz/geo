@@ -21,7 +21,6 @@ def ee_initialize(token_name="EARTHENGINE_TOKEN"):
     geemap.ee_initialize(token_name=token_name)
 
 
-as you can see this is a man so we will
 st.sidebar.info(
     """
     - Web App URL: <https://streamlit.geemap.org>
