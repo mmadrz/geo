@@ -14,7 +14,7 @@ from shapely.geometry import Polygon
 st.set_page_config(layout="wide")
 warnings.filterwarnings("ignore")
 
-
+json_data = st.secrets["EARTHENGINE_TOKEN"]
 @st.cache_data
 def ee_initialize(token_name="EARTHENGINE_TOKEN"):
     geemap.ee_initialize(token_name=token_name)
