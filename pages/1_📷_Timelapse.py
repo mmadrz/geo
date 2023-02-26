@@ -15,6 +15,9 @@ st.set_page_config(layout="wide")
 warnings.filterwarnings("ignore")
 
 
+json_data = st.secrets["json_data"]
+service_account = st.secrets["service_account"]
+
 @st.cache_data
 def ee_authenticate(token_name="EARTHENGINE_TOKEN"):
     geemap.ee_initialize(token_name=token_name)
